@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#daa520"
+    android:padding="32dp"
+    tools:ignore="MissingDefaultResource">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O que deseja encontrar no Golden Data?"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Título da tela de boas-vindas" />
+
+    <TextView
+        android:id="@+id/description_client"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Descrição para clientes"
+        android:text="Quero receber cupons de desconto e aprimorar os meus anúncios online!"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_client"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description_client"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="93dp"
+        android:backgroundTint="#FFFFFF"
+        android:contentDescription="Botão para clientes"
+        android:padding="16dp"
+        android:text="Sou Cliente"
+        android:textColor="#daa520"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/description_company"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_client"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="9dp"
+        android:contentDescription="Descrição para empresas"
+        android:text="Quero aprimorar meus anúncios e otimizar minhas campanhas!"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description_company"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="#FFFFFF"
+        android:contentDescription="Botão para empresas"
+        android:padding="16dp"
+        android:text="Somos uma Empresa"
+        android:textColor="#daa520"
+        android:textSize="20sp" />
+</RelativeLayout>

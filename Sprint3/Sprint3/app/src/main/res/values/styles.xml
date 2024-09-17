@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/button_background</item>
+        <item name="colorPrimaryDark">@color/button_background</item>
+        <item name="colorAccent">@color/button_background</item>
+    </style>
+
+    <!-- Custom styles -->
+    <style name="EditTextStyle">
+        <item name="android:padding">12dp</item>
+        <item name="android:background">?attr/editTextBackground</item>
+    </style>
+</resources>
